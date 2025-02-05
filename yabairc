@@ -19,6 +19,7 @@ yabai -m mouse_drop_action swap
 yabai -m rule --add app="^Systemeinstellungen$" manage=off
 yabai -m rule --add app="^Raycast$" manage=off
 yabai -m rule --add app="^Contexts$" manage=off
+yabai -m rule --add app="^WhatsApp$" manage=off
 yabai -m rule --add app="^Finder$" manage=off
 yabai -m rule --add app="^Logitech G HUB$" manage=off
 yabai -m rule --add app="^App Store$" manage=off
