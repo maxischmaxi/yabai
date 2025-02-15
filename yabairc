@@ -8,7 +8,8 @@ yabai -m config left_padding 10
 yabai -m config right_padding 10
 yabai -m config window_gap 10
 
-yabai -m config mouse_follows_focus on
+yabai -m config mouse_follows_focus off
+yabai -m config focus_follows_mouse autofocus
 
 yabai -m config mouse_modifier alt
 yabai -m config mouse_action1 move
@@ -21,7 +22,9 @@ yabai -m rule --add app="^Raycast$" manage=off
 yabai -m rule --add app="^Contexts$" manage=off
 yabai -m rule --add app="^WhatsApp$" manage=off
 yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app="^Aktivitätsanzeige$" manage=off
 yabai -m rule --add app="^Logitech G HUB$" manage=off
 yabai -m rule --add app="^App Store$" manage=off
 yabai -m rule --add app="^Rechner$" manage=off
 yabai -m rule --add app="^Karabiner-Elements$" manage=off
+yabai -m rule --add app="^CitrixEndpointAnalysis$" manage=off
