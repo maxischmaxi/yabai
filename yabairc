@@ -19,7 +19,7 @@ yabai -m config window_opacity off
 yabai -m config menubar_opacity 1.0
 
 yabai -m rule --add app=".*" sub-layer=normal
-yabai -m rule --add app="^Systemeinstellungen$" manage=off
+yabai -m rule --add app="^System­einstellungen$" manage=off
 yabai -m rule --add app="^FirstSpirit ServerManager$" manage=off
 yabai -m rule --add app="^Raspberry" manage=off
 yabai -m rule --add app="^Raycast$" manage=off
@@ -30,8 +30,5 @@ yabai -m rule --add app="^App Store$" manage=off sub-layer=below
 yabai -m rule --add app="^Rechner$" manage=off sub-layer=below
 yabai -m rule --add app="^Karabiner-Elements$" manage=off sub-layer=below
 yabai -m rule --add app="^Citrix" manage=off sub-layer=below
-
-# yabai -m rule --add app="^Finder$" manage=off sub-layer=below
-# yabai -m rule --add app="^1Password$" manage=off sub-layer=below
 
 # sudo yabai --load-sa
